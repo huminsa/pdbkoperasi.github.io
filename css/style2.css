@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 14px;
+    font-family: verdana;
+
+}
+#heading{
+    float: left;
+    width: 940px;
+}
+#heading a {
+    line-height: 65px;
+    text-decoration: none;
+    padding-left: 60px;
+    color:#FFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+#menu {
+    background:#26C4C2;
+    width: 100%;
+    height: 65px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+#menu ul {
+    list-style: none;
+
+}
+#menu ul li {
+    float: center;
+    line-height: 65px
+}
+#menu ul li a {
+    float:left; 
+    width:100px; 
+    display:block; 
+    text-align:left; 
+    color:#FFF; 
+    text-decoration:none; 
+}
+#menu ul ul {
+    display:none; 
+    list-style:none; 
+    position:absolute; 
+    background-color:#26C4C2;
+    float: none;
+    top:65px; 
+    width:190px;
+}
+#menu ul li a:hover {
+    background-color:#2E9EA2; 
+    display:block;
+}
+#menu ul li:hover ul {
+    display:block;
+}
+#menu ul ul li a {
+    display:block;
+    padding-left:30px; 
+    text-align:left; 
+    width:160px;
+    height: 60px;
+    line-height: 60px;
+}
+#menu ul ul li a:hover {
+    color:#fff;
+}
+.jam-digital-malasngoding {
+    overflow: hidden;
+    width: 330px;
+    margin: 20px auto;
+    border: 5px solid #efefef;
+}
+.kotak{
+    float: left;
+    width: 110px;
+    height: 100px;
+    background-color: #189fff;
+}
+.jam-digital-malasngoding p {
+    color: #fff;
+    font-size: 36px;
+    text-align: right;
+    margin-top: 30px;
+}
+.pd {padding:0 0;}
+ 
+.bd {border-radius:0; background-color:#3498db; border-color: none }
+ 
+.navbar-inverse .navbar-brand { position: relative; z-index: 2; color:white;}
+.navbar-inverse .navbar-nav > li > a {color:white;}
+.btn-default:hover{border-color: #fff}
+ 
+.navbar-nav.navbar-right .btn { position: relative; z-index: 2; 
+                                padding: 4px 20px; margin: 10px auto; 
+                                transition: transform 0.3s; }
+ 
+.navbar .navbar-collapse { position: relative; overflow: hidden !important; }
+.navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 22px; }
+ 
+.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; 
+                        right: 0; bottom: 0; margin: 0; padding-right: 120px; 
+                        padding-left: 80px; width: 100%; }
+.navbar.navbar-inverse .nav-collapse { background-color: #3498db }
+.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
+.nav-collapse>li { float: right; }
+ 
+.btn.btn-circle { border-radius: 50px; }
+.btn.btn-outline { background-color: transparent; }
+ 
+.navbar-nav.navbar-right .btn:not(.collapsed) {
+    background-color: rgb(62, 220, 236);
+    border-color: rgb(81, 183, 162);
+    color: rgb(255, 255, 255);
+}
+ 
+.navbar.navbar-default .nav-collapse,
+.navbar.navbar-inverse .nav-collapse {
+    height: auto !important;
+    transition: transform 0.3s;
+    transform: translate(0px,-50px);
+}
+.navbar.navbar-default .nav-collapse.in,
+.navbar.navbar-inverse .nav-collapse.in {
+    transform: translate(0px,0px);
+}
+ 
+ 
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; } 
+    
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+    
+    .navbar.navbar-default .nav-collapse,
+    .navbar.navbar-inverse .nav-collapse {
+        transform: translate(-100%,0px);
+    }
+    .navbar.navbar-default .nav-collapse.in,
+    .navbar.navbar-inverse .nav-collapse.in {
+        transform: translate(0px,0px);
+    }
+    
+    .navbar.navbar-default .nav-collapse.slide-down,
+    .navbar.navbar-inverse .nav-collapse.slide-down {
+        transform: translate(0px,-100%);
+    }
+    .navbar.navbar-default .nav-collapse.in.slide-down,
+    .navbar.navbar-inverse .nav-collapse.in.slide-down {
+        transform: translate(0px,0px);
+    }
+
+
+}
+.h1 
+{
+    background-color: #1b5f32;
+}
+p {
+    background-color: #FFFFFF;
+}
